@@ -14,17 +14,48 @@
 <!-- DÉFAUT REPRODUIT 3 : police web tierce chargée par feuille CSS externe -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" />
 
-<!-- DÉFAUT REPRODUIT 4 : feuilles de style multiples non regroupées -->
+<!-- DÉFAUT REPRODUIT 4 : 18 feuilles de style non regroupées (comme le site observé : 17 + police tierce) -->
 <link rel="stylesheet" href="css/reset.css" media="all" />
 <link rel="stylesheet" href="css/general.css" media="all" />
 <link rel="stylesheet" href="css/1140.css" media="screen and (min-width: 1024px)" />
 <link rel="stylesheet" href="css/print.css" media="print" />
+<link rel="stylesheet" href="css/slider.css" media="all" />
+<link rel="stylesheet" href="css/theme.css" media="all" />
+<link rel="stylesheet" href="css/960.css" media="screen and (min-width: 480px) and (max-width: 1024px)" />
+<link rel="stylesheet" href="css/480.css" media="screen and (max-width: 480px)" />
+<link rel="stylesheet" href="css/ui.css" media="all" />
+<link rel="stylesheet" href="css/toolbar.css" media="all" />
+<link rel="stylesheet" href="css/toolbar-icons.css" media="all" />
+<link rel="stylesheet" href="css/gallery.css" media="all" />
+<link rel="stylesheet" href="css/agenda.css" media="all" />
+<link rel="stylesheet" href="css/upload.css" media="all" />
+<link rel="stylesheet" href="css/typo.css" media="all" />
+<link rel="stylesheet" href="css/tools.css" media="all" />
+<link rel="stylesheet" href="css/consent.css" media="all" />
 
-<!-- DÉFAUT REPRODUIT 5 : bibliothèques jQuery chargées en entier (avec migrate) -->
+<!-- DÉFAUT REPRODUIT 5 : 22 scripts (4 depuis cdnjs, 17 locaux factices, 1 script applicatif), jQuery UI chargé deux fois, sans defer -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/form.js"></script>
+<script src="js/autosave.js"></script>
+<script src="js/placeholder-label.js"></script>
+<script src="js/ajax-callback.js"></script>
+<script src="js/js-cookie.js"></script>
+<script src="js/markitup.js"></script>
+<script src="js/previsu.js"></script>
+<script src="js/toolbar-start.js"></script>
+<script src="js/colorbox.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/scrollto.js"></script>
+<script src="js/localscroll.js"></script>
+<script src="js/tools-header.js"></script>
+<script src="js/consent.js"></script>
+<script src="js/ui-copy.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/slider-fx.js"></script>
+<div class="pictos" aria-hidden="true"><img src="img/arrow-left.png" alt="" width="20" height="20" /><img src="img/arrow-right.png" alt="" width="20" height="20" /><img src="img/play.png" alt="" width="24" height="24" /><img src="img/pause.png" alt="" width="24" height="24" /><img src="img/play2.png" alt="" width="24" height="24" /><img src="img/pause3.png" alt="" width="24" height="24" /><img src="img/puce-menu-haut.png" alt="" width="10" height="10" /><img src="img/puce-jaune.png" alt="" width="10" height="10" /><img src="img/puce-blanche.png" alt="" width="10" height="10" /><img src="img/ouvrir-menu.png" alt="" width="24" height="24" /><img src="img/rss.png" alt="" width="16" height="16" /><img src="img/rss-rouge.png" alt="" width="16" height="16" /><img src="img/pdf.png" alt="" width="32" height="32" /><img src="img/logo-tv-filigrane.png" alt="" width="32" height="32" /><img src="img/logo-tv-50.png" alt="" width="32" height="32" /><img src="img/ui-icons-444.png" alt="" width="32" height="32" /><img src="img/ui-icons-fff.png" alt="" width="32" height="32" /></div>
 <script src="js/app.js" defer="defer"></script>
 </head>
 <body>
@@ -77,10 +108,8 @@
     <div id="slider">
       <div class="slide on"><img src="img/une-1.jpg" alt="" width="1131" height="381" />
         <div class="caption-bottom"><h3><a href="#">Titre de l'actualité 1</a></h3><p>Texte de substitution décrivant un événement communal fictif, sur plusieurs jours.</p></div></div>
-      <div class="slide"><img src="img/une-2.jpg" alt="" width="1131" height="381" />
-        <div class="caption-bottom"><h3><a href="#">Titre de l'actualité 2</a></h3><p>Texte de substitution annonçant un nouveau service communal fictif.</p></div></div>
-      <div class="slide"><img src="img/une-3.jpg" alt="" width="4709" height="1585" />
-        <div class="caption-bottom"><h3><a href="#">Titre de l'actualité 3</a></h3><p>Texte de substitution présentant un projet territorial fictif.</p></div></div>
+            <div class="slide"><img src="img/une-2.jpg" alt="" width="4709" height="1585" />
+        <div class="caption-bottom"><h3><a href="#">Titre de l'actualité 2</a></h3><p>Texte de substitution présentant un projet territorial fictif.</p></div></div>
     </div>
   </div>
 </div>

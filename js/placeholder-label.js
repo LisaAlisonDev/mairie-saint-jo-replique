@@ -1,0 +1,26 @@
+/* JS factice : poids cible 1.2 Ko (hypothèse à calibrer) */
+/*hgdQQ06xzIx80doRt+t/MeKPRYv/p4tHZOKr8xIWU0+oPJAP18DUe1ByN7oX*/
+/*1aKCKU9cafDEE+mZifxw1rd8zt2P2LywhsdTyoLtd5cBZMaN1cIHOYnHwmFn*/
+/*kNVBsw7dYvNFQs+7LA07K/S+ue6a33RBatSsJFWUTdMK6HwXQeDMR5+/ah0y*/
+/*jj0B6nttkl98eEEvcdbGCFVpxyjkExS2nOQUEvtqvuXtjBrNwLKXsf2xUWWO*/
+/*o8hXcda58BtoFtqv6X+oa23pV86aYf2Lc3QFxeqRZQhTbjrxO9K3aLwYgLX+*/
+/*+ArAQvQeeTZajj4tBctgB9QGByuaQYPFz7s18toPrPBW0TDjrUYOd1MFYslF*/
+/*uVJxBWNgWPOvtjkaKU0g335ZKnb7mLQsLDGmRnrakBIx7rX6Nko5dGovEmq2*/
+/*9SPFWm7z6PfE5o2YS0Qcdtlus7BlkpxPdRvQpx71YL05yWampnHqGN72nwjG*/
+/*cAKCcJAL9KnPkGhLO1Fg8ZoEBdnZWAv8dx90E6loExIYmWytB0+j4orV91ZC*/
+/*Z1kiUyegITGsy1JbiMhUD0fj7lw+m7uvQu0IzpE59NBfXYfbge4qXrWM3IKR*/
+/*2HfgMGEAi1dX8zV5Z8MescWQlIE6EQIgUWjOxsm4MjkoW9tYxeytZdtlIxYa*/
+/*KQ3cSVNjf0gdqsoAXd35zr1Xlvq5SfraqcgD+yl6t63qipylOZSQMgPlfZ7T*/
+/*NzvwYV98UcGCqVkuU6dlmD6Vu6JY6FjKOWPPxsoCUAPxAnQet2HlzqlDXSaK*/
+/*aHggC+VBcgtGEBcYq3sm0Od7TPDT7dhQUOJbLUoEyIgOGG7EmPAsTEF6/B5Z*/
+/*wTgAC/w3qJ+QBvkkf6SjGpIWsJa9I7AUC7n3znV252uRZA5O3sUGJMQNmYBv*/
+/*MlTn2A2+K5ptBz929GDk6thic6I1ythNkkKFPu4OdNxKzsU4AqjWTVohfNMm*/
+/*I483KEFxy6wz8XdSqjRE0X88+ww1+86X0AkT1q/9fVKZCS0guBomFzv89PjW*/
+/*uCuZalPm32hnX2SGsKPpcLnPByFiriAKDGJ3OobjIU8nCbdl2HRryRqfR6dV*/
+/*cZptEVv5LPEK5roqkD4pd0QhMOWJuXKqeiK2MctwzecQPAgMA2n7R/o4fbpB*/
+/*ygIYZ1+6qunemgdGRsBfx+dmPvXB3Dn3EwdxdoK34oYYxKrZMIHmpVNSDqHh*/
+/*WSbx/pNG+2UKvemsdDA4VCAkI20ys3kMluZZNAkD8x/IQE51XyYFk4FccYti*/
+/*Z9wZ7y8NbHICwz12cCtaYJXjYFc4VD28PvZUuej/0XMQHrBLp4lCsCyiTWI2*/
+/*dVN/c5+l2YYAyl9vWVGtAEd2tacSFWNh/pne0ccsTdTX70cRvEH1ZhdeyK8L*/
+/*1xOi6x6lkIbZcfWzPKTnJ7rmo+d/Z6MRJaMz5+6oJuKT71HrLAhYXM8k9RFF*/
+/*FJKz43WPklvnr4N

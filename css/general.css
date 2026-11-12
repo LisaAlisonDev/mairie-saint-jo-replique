@@ -32,3 +32,4 @@ a{color:#222;text-decoration:none}
 .pied_de_page{background:#444;color:#fff;padding:16px 0}
 .pied_de_page a{color:#fff}.pied_de_page_plan{float:left;width:162px;font-size:13px}
 .mentions{clear:both;padding-top:10px;font-size:13px}
+.pictos{display:flex;gap:4px;padding:8px}
