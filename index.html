@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ville de Test-sur-Mer — banc d'essai ACV (version AVANT)</title>
+<meta name="Description" content="Réplique de test d'un site de mairie, sans lien officiel avec une commune réelle." />
+
+<!-- DÉFAUT REPRODUIT 1 (RGESN cache) : cache navigateur désactivé -->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<!-- DÉFAUT REPRODUIT 2 : pas de meta viewport (rendu bureau sur mobile) -->
+
+<!-- DÉFAUT REPRODUIT 3 : police web tierce chargée par feuille CSS externe -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" />
+
+<!-- DÉFAUT REPRODUIT 4 : feuilles de style multiples non regroupées -->
+<link rel="stylesheet" href="css/reset.css" media="all" />
+<link rel="stylesheet" href="css/general.css" media="all" />
+<link rel="stylesheet" href="css/1140.css" media="screen and (min-width: 1024px)" />
+<link rel="stylesheet" href="css/print.css" media="print" />
+
+<!-- DÉFAUT REPRODUIT 5 : bibliothèques jQuery chargées en entier (avec migrate) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/app.js" defer="defer"></script>
+</head>
+<body>
+
+<ul class="access_key_ul">
+  <li><a class="access_key" href="#haut_de_page" accesskey="1">Accueil</a></li>
+  <li><a class="access_key" href="#contenu" accesskey="9">Aller au contenu</a></li>
+</ul>
+
+<!-- EN-TÊTE -->
+<div id="haut_de_page" class="head2">
+  <div class="container_1140">
+    <div class="logo_site"><h1><a href="#haut_de_page"><img src="img/logo.png" alt="Ville de Test-sur-Mer" width="104" height="120" /></a></h1></div>
+
+    <div id="fil_info" class="fil_info">
+      <img src="img/fil-info.png" alt="Fil info" width="47" height="37" />
+      <ul id="fil_info_texte">
+        <li class="on"><p>Info 1 : exemple de message du fil d'information.</p></li>
+        <li><p>Info 2 : une chaîne communale en ligne (texte de substitution).</p></li>
+        <li><p>Info 3 : la place de marché locale (texte de substitution).</p></li>
+        <li><p>Info 4 : suivez la ville sur les réseaux sociaux.</p></li>
+      </ul>
+      <button id="precedent" class="fil_info_boutons" title="Info précédente">&lt;</button>
+      <button id="pause" class="fil_info_boutons" title="Pause">||</button>
+      <button id="suivant" class="fil_info_boutons" title="Info suivante">&gt;</button>
+      <form method="get" action="#">
+        <input type="text" id="formulaire_recherche" name="recherche" value="Rechercher" title="Rechercher" />
+        <input type="image" src="img/loupe.png" alt="Lancer la recherche" width="24" height="24" />
+      </form>
+    </div>
+
+    <ul id="menu_haut" class="menu_haut">
+      <li><a href="#">Ma ville</a><ul><li><a href="#">Vie municipale</a></li><li><a href="#">Enquêtes publiques</a></li></ul></li>
+      <li><a href="#">Tourisme</a><ul><li><a href="#">Balades</a></li><li><a href="#">Zones de baignade</a></li></ul></li>
+      <li><a href="#">Culture</a><ul><li><a href="#">Équipements culturels</a></li></ul></li>
+      <li><a href="#">Sport &amp; loisirs</a><ul><li><a href="#">Stades</a></li><li><a href="#">Gymnases</a></li></ul></li>
+      <li><a href="#">Économie</a><ul><li><a href="#">Démographie</a></li></ul></li>
+      <li><a href="#">Enfance &amp; éducation</a><ul><li><a href="#">Petite enfance</a></li><li><a href="#">Vie scolaire</a></li></ul></li>
+      <li><a href="#">Lien social</a><ul><li><a href="#">Action sociale</a></li></ul></li>
+      <li><a href="#">Urbanisme</a><ul><li><a href="#">Demande en ligne</a></li></ul></li>
+      <li><a href="#">Actes administratifs</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- À LA UNE : slider, aucune image en chargement différé -->
+<div class="a_la_une_fond">
+  <div class="container_1140">
+    <h2>A la une ...</h2>
+    <div id="slider">
+      <div class="slide on"><img src="img/une-1.jpg" alt="" width="1131" height="381" />
+        <div class="caption-bottom"><h3><a href="#">Titre de l'actualité 1</a></h3><p>Texte de substitution décrivant un événement communal fictif, sur plusieurs jours.</p></div></div>
+      <div class="slide"><img src="img/une-2.jpg" alt="" width="1131" height="381" />
+        <div class="caption-bottom"><h3><a href="#">Titre de l'actualité 2</a></h3><p>Texte de substitution annonçant un nouveau service communal fictif.</p></div></div>
+      <div class="slide"><img src="img/une-3.jpg" alt="" width="4709" height="1585" />
+        <div class="caption-bottom"><h3><a href="#">Titre de l'actualité 3</a></h3><p>Texte de substitution présentant un projet territorial fictif.</p></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- CONTENU -->
+<div class="contenu" id="contenu">
+  <div class="container_1140">
+
+    <div class="menu_gauche">
+      <ul>
+        <li class="menu_gauche_mot_cle">Services
+          <ul><li><a href="#">Publication des actes</a></li><li><a href="#">Réseau de bus</a></li><li><a href="#">Collecte des déchets</a></li><li><a href="#">Spots Wifi</a></li><li><a href="#">Menus des restaurants scolaires</a></li></ul></li>
+        <li class="menu_gauche_mot_cle">Démarches 24/24
+          <ul><li><a href="#">RDV en ligne : identité / passeports</a></li><li><a href="#">Préinscrire son enfant en crèche</a></li><li><a href="#">Actes d'état civil</a></li><li><a href="#">Paiement de la restauration scolaire</a></li><li><a href="#">Médiathèque en ligne</a></li><li><a href="#">Pré-inscriptions périscolaires</a></li></ul></li>
+        <li class="menu_gauche_mot_cle">Autres démarches
+          <ul><li><a href="#">État civil</a></li><li><a href="#">Occupation du domaine public</a></li><li><a href="#">Recensement</a></li><li><a href="#">Élections</a></li></ul></li>
+        <li class="menu_gauche_mot_cle">Nous suivre
+          <ul><li><a href="#">Newsletter</a></li><li><a href="#">Nous contacter</a></li></ul></li>
+        <li class="reseaux"><img src="img/facebook.png" alt="Facebook" width="32" height="32" /> <img src="img/twitter.png" alt="Twitter" width="32" height="32" /></li>
+        <li class="menu_gauche_mot_cle">Le magazine
+          <ul><li><a href="#"><img src="img/mag.jpg" alt="" width="120" height="160" /></a></li></ul></li>
+        <li><img src="img/ville-internet.png" alt="Label ville internet (fictif)" width="120" height="83" /></li>
+      </ul>
+    </div>
+
+    <!-- VIDÉOS : miniatures 480x360 affichées à 151 px -->
+    <div class="breves_video">
+      <div class="video"><img src="img/video-1.jpg" alt="" width="151" /><h3><a href="#">Vidéo 1 : reportage fictif</a></h3><div>Résumé de substitution de la vidéo…</div></div>
+      <div class="video"><img src="img/video-2.jpg" alt="" width="151" /><h3><a href="#">Vidéo 2 : magazine fictif</a></h3><div>Résumé de substitution de la vidéo…</div></div>
+      <div class="video"><img src="img/video-3.jpg" alt="" width="151" /><h3><a href="#">Vidéo 3 : visite fictive</a></h3><div>Résumé de substitution de la vidéo…</div></div>
+      <div class="video"><img src="img/video-4.jpg" alt="" width="151" /><h3><a href="#">Vidéo 4 : journal fictif</a></h3><div>Résumé de substitution de la vidéo…</div></div>
+      <div class="video"><img src="img/video-5.jpg" alt="" width="151" /><h3><a href="#">Vidéo 5 : portrait fictif</a></h3><div>Résumé de substitution de la vidéo…</div></div>
+      <div class="video"><img src="img/video-6.jpg" alt="" width="151" /><h3><a href="#">Vidéo 6 : portrait fictif</a></h3><div>Résumé de substitution de la vidéo…</div></div>
+    </div>
+
+    <!-- EN BREF : 5 articles, miniature 192x136 -->
+    <div class="en_bref_corps">
+      <div class="en_bref_contenu"><div><h3><a href="#">Fermeture temporaire d'un équipement sportif</a></h3><p>Texte de substitution : travaux de réhabilitation jusqu'à une date fictive.</p></div><img src="img/bref-1.jpg" alt="" width="192" height="136" /></div><hr />
+      <div class="en_bref_contenu"><div><h3><a href="#">Fête locale : circulation réglementée</a></h3><p>Texte de substitution : mesures temporaires de circulation et de stationnement.</p></div><img src="img/bref-2.jpg" alt="" width="192" height="136" /></div><hr />
+      <div class="en_bref_contenu"><div><h3><a href="#">Journée solidaire pour l'école des arts</a></h3><p>Texte de substitution : levée de fonds sous la halle de la ville fictive.</p></div><img src="img/bref-3.jpg" alt="" width="192" height="136" /></div><hr />
+      <div class="en_bref_contenu"><div><h3><a href="#">Élection annuelle : à vous de voter</a></h3><p>Texte de substitution : vote du public sur la page des réseaux sociaux.</p></div><img src="img/bref-4.jpg" alt="" width="192" height="136" /></div><hr />
+      <div class="en_bref_contenu"><div><h3><a href="#">Campagne de subventions</a></h3><p>Texte de substitution : le dossier de demande est disponible.</p></div><img src="img/bref-5.jpg" alt="" width="192" height="136" /></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<!-- PIED DE PAGE -->
+<div class="pied_de_page">
+  <div class="container_1140">
+    <div class="pied_de_page_plan"><span>Ma ville</span><ul><li><a href="#">Vie municipale</a></li><li><a href="#">Enquêtes publiques</a></li></ul></div>
+    <div class="pied_de_page_plan"><span>Tourisme</span><ul><li><a href="#">Balades</a></li><li><a href="#">Baignade</a></li></ul></div>
+    <div class="pied_de_page_plan"><span>Culture</span><ul><li><a href="#">Équipements</a></li></ul></div>
+    <div class="pied_de_page_plan"><span>Sport &amp; loisirs</span><ul><li><a href="#">Stades</a></li><li><a href="#">Gymnases</a></li></ul></div>
+    <div class="pied_de_page_plan"><span>Économie</span><ul><li><a href="#">Démographie</a></li></ul></div>
+    <div class="pied_de_page_plan"><span>Enfance &amp; éducation</span><ul><li><a href="#">Vie scolaire</a></li></ul></div>
+    <div class="pied_de_page_plan"><span>Lien social</span><ul><li><a href="#">Logement</a></li></ul></div>
+    <div class="clear"></div>
+    <p class="mentions">Accueil | Accessibilité | Plan du site | Mentions légales | Nous contacter</p>
+    <p class="mentions">Site de test sans lien officiel avec une commune réelle — banc d'essai ACV.</p>
+  </div>
+</div>
+</body>
+</html>
