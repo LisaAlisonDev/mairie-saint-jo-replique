@@ -28,3 +28,8 @@ Site de test sans lien officiel avec une commune réelle. Contenus, logos et ima
 - Le site réel charge jQuery SPIP (78 Ko) ; la réplique charge jQuery depuis cdnjs et compense l'écart dans `ui-copy.js`.
 - Le logo « SaintJo TV filigrane » renvoie un 404 sur le site réel (non reproduit).
 - Les temps de chargement dépendent de l'hébergeur : ne compare que des mesures faites avec les mêmes outils et conditions.
+
+## Complexité du DOM
+- Mesure EcoIndex du vrai site : 845 éléments ; première version de la réplique : 331.
+- Écart comblé en développant les sous-menus du menu haut et du plan du site en pied de page (liens de substitution « Page n.m ») : le compteur DOM de la réplique est maintenant de 845 éléments (compté avec `document.getElementsByTagName('*')`, identique à la valeur 331 mesurée par EcoIndex avant l'ajout).
+- Limite : la structure réelle des 845 éléments (répartition, profondeur) n'est pas connue ; seul le total est reproduit. Le HTML de la réplique est plus lourd qu'avant l'ajout.
